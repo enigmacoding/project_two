@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-@import url("#https://basehold.it/24");
+@import url("https://basehold.it/24");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -45,7 +45,7 @@ figure.photo {
 figure {
   padding-top: 3em;
 }
-nav a {
+.nav a {
   font-size: 1em;
   padding: 1em;
   display: block;
@@ -55,5 +55,23 @@ nav a {
 body {
   margin: 1em;
   padding: 1em;
+}
+@media screen and (min-width: 25em) {
+  html {
+    line-height: 2em;
+    font-size: 1.125em;
+}
+figcaption {
+  font-size: 1em;
+  line-height: 11.25em;
+  padding-top: 0.45em;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+footer {
+  font-size: 0.50em; /* orig: 12px, 12/16 = 0.75 */
+  padding-top: 2.2em; /* orig: 24px, 24/12 = 2 */
 }
 /
