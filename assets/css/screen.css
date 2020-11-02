@@ -38,4 +38,22 @@ h3 {
 h4 {
     font-weight: 600;
 }
+figure.photo {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+figure {
+  padding-top: 3em;
+}
+nav a {
+  font-size: 1em;
+  padding: 1em;
+  display: block;
+  background: #00bfff;
+  color: #000000;
+}
+body {
+  margin: 1em;
+  padding: 1em;
+}
 /
